@@ -1,6 +1,7 @@
 title: testTest
 description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+# theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 url: https://gygimdev.github.io
 
