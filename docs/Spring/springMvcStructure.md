@@ -48,8 +48,10 @@ parent: 스프링 프레임워크(Spring Framework)
 ## MVC 구조
 ![spring-mvc-structure.png](..%2F..%2Fstatic%2Fspring-mvc-structure.png)
 ### 01. 핸들러 조회
-`디스패처서블릿(DispatcherServlet)`은 HTTP 요청이 오면, 해당 요청을 처리할 적절한 `핸들러(Handler)`를 `핸들러매핑(HandlerMapping)` 통해 찾는다. `핸들러매핑(HandlerMapping)`은 스프링MVC 프레임워크가 시작될때 자동으로 등록되고, 
-대표적인 핸들러로는 `RequestMappingHandlerMapping`이 있다. 이 핸들러매핑은 `@RequestMapping` 어노테이션을 사용해 URL 패턴과 `핸들러(Handler)`를 매핑하여 조회한다.  
+`디스패처서블릿(DispatcherServlet)`은 HTTP 요청이 오면, 해당 요청을 처리할 적절한 `핸들러(Handler)`를 `핸들러매핑(HandlerMapping)` 통해 찾는다.  
+`핸들러매핑(HandlerMapping)`은 스프링MVC 프레임워크가 시작될때 자동으로 등록되고, 대표적인 핸들러로는 `RequestMappingHandlerMapping`이 있다.  
+
+이렇게 핸들러매핑은 `@RequestMapping` 어노테이션을 사용해 URL 패턴과 `핸들러(Handler)`를 매핑하여 조회한다.  
 
 또다른 핸들러매핑으로는 `BeanNameUrlHandlerMapping` 이 있으며, 이 매핑은 스프링 빈의 이름과 URL을 매핑하여 요청을 처리할 컨트롤러를 찾는다.
 이렇게 `핸들러매핑(HandlerMapping)`은 `디스패처서블릿(dispatcherServlet)` 에 등록되어 HTTP요청이 들어오면 요청 URL 과 매핑된 컨트롤러를 찾아서 실행한다.
