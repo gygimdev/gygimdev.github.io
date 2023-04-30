@@ -45,7 +45,7 @@ parent: 스프링 프레임워크(Spring Framework)
 
 ---
 
-## MVC 구조
+## MVC 구조 & 흐름
 ![spring-mvc-structure.png](..%2F..%2Fstatic%2Fspring-mvc-structure.png)
 ### 01. 핸들러 조회
 `디스패처서블릿(DispatcherServlet)`은 HTTP 요청이 오면, 해당 요청을 처리할 적절한 `핸들러(Handler)`를 `핸들러매핑(HandlerMapping)` 통해 찾는다.  
