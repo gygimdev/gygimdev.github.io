@@ -162,6 +162,7 @@ public class Client {
 ### 스프링에서 사용하는 주입방법 종류
 
 1. 생성자 주입 방법(스프링에서 권장)
+
 ```java
 public class UserService {
     private UserRepository userRepository;
@@ -184,6 +185,7 @@ UserService userService = new UserService(userRepository);
 ```
 
 2. 세터 주입 방법
+
 ```java
 public class UserService {
     private UserRepository userRepository;
@@ -207,6 +209,7 @@ userService.setUserRepository(userRepository);
 ```
 
 3. 필드 주입 방법
+
 ```java
 public class UserService {
     @Autowired
@@ -236,18 +239,19 @@ IoC:객체 생성 관리에 집중, DI: 의존성 주입에 집중
 
 ### IoC(Inversion of Control) 컨테이너:
 - IoC 컨테이너는 애플리케이션의 제어 흐름을 관리하고 객체의 생명주기를 관리하는 핵심 기능을 제공합니다.
-  {: .fs-3 }
+{: .fs-3 }
 - IoC 컨테이너는 애플리케이션의 제어 흐름을 개발자로부터 역전시켜 객체의 생성과 관리를 컨테이너에 위임합니다.
-  {: .fs-3 }
+{: .fs-3 }
 
 ### DI(Dependency Injection) 컨테이너:
 - DI 컨테이너는 IoC 컨테이너의 일종으로, 의존성 주입을 통해 객체 간의 의존 관계를 해결하는 기능을 제공합니다.
 - 객체가 필요로 하는 의존성을 컨테이너가 자동으로 주입해줌으로써 객체 간의 결합도를 낮추고 유연한 애플리케이션을 구성할 수 있게 해줍니다.
-  {: .fs-3 }
+{: .fs-3 }
 
-**차이점:**
+
+차이점:
 - IoC 컨테이너는 라이프사이클 관리와 객체 생성에 집중하며, DI 컨테이너는 의존성 주입에 집중합니다.
 - 스프링은 IoC 컨테이너와 DI 컨테이너를 함께 제공하여 객체의 생성과 의존성 관리를 편리하게 할 수 있도록 지원합니다. IoC 컨테이너의 대표적인 예로는 ApplicationContext가 있으며, DI 컨테이너는 IoC 컨테이너의 일부 기능으로 포함됩니다.
 - 객체간의 필요한 의존관계를 생성하고 관리하면서 연결해주는 것을 IoC, DI 컨테이너라고 합니다.
-  {: .fs-3 }
+{: .fs-3 }
 
