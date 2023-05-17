@@ -171,7 +171,6 @@ public class UserService {
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
-    
     // ...
 }
 
@@ -194,7 +193,6 @@ public class UserService {
     public void setUserRepository(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
-    
     // ...
 }
 
@@ -239,7 +237,6 @@ IoC:객체 생성 관리에 집중, DI: 의존성 주입에 집중
 
 ### IoC(Inversion of Control) 컨테이너:
 - IoC 컨테이너는 애플리케이션의 제어 흐름을 관리하고 객체의 생명주기를 관리하는 핵심 기능을 제공합니다.
-{: .fs-3 }
 - IoC 컨테이너는 애플리케이션의 제어 흐름을 개발자로부터 역전시켜 객체의 생성과 관리를 컨테이너에 위임합니다.
 {: .fs-3 }
 
