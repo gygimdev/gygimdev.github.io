@@ -28,6 +28,7 @@ parent: 프로젝트-200
 ``` html
 https://start.spring.io/
 ```
+자바 버전: 17
 `Gradle`  
 Gradle은 빌드 자동화 도구 중 하나, 프로젝트의 의존성 관리와 빌드 과정을 관리하는 데 사용
 
