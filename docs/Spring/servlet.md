@@ -88,8 +88,8 @@ public class MyServlet extends HttpServlet {
 {: .fs-3 }
 
 ### 브라우저 서블릿 요청 흐름도
-![servletFlow.png](..%2F..%2Fstatic%2FservletFlow.png)
 
+![servletFlow.png](..%2F..%2Fstatic%2FservletFlow.png)
 
 {: .note }
 스프링 MVC에서는 개발자가 직접 서블릿을 만들어 사용하는 것이 아니라, 스프링 프레임워크가 제공하는 DispatcherServlet을 사용합니다. 개발자는 DispatcherServlet을 설정하고, 요청에 대한 매핑을 정의하는 등의 작업을 통해 웹 애플리케이션의 동작을 제어할 수 있습니다. DispatcherServlet은 요청을 받으면 컨트롤러에게 전달하고, 컨트롤러는 비즈니스 로직을 처리한 후에 응답을 생성합니다.
