@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 제어의 역전(IoC), 의존성주입(DI)
+title: 제어역전(IoC), 의존성주입(DI)
 parent: 스프링(Spring)
 nav_order: 2
 ---
