@@ -1,10 +1,11 @@
 ---
 layout: default
-title: IoC, DI, Container 개념
-parent: 스프링 프레임워크(Spring Framework)
+title: 제어의 역전(IoC), 의존성주입(DI)
+parent: 스프링(Spring)
+nav_order: 2
 ---
 
-# IoC, DI, Conatiner 개념
+# IoC, DI, Container 개념
 {: .no_toc }
 <details open markdown="block">
   <summary>

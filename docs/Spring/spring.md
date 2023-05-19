@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 스프링 프레임워크(Spring Framework)
+title: 스프링(Spring)
 nav_order: 3
 has_children: true
-permalink: docs/spring
+permalink: /docs/spring
 ---
 
 # 스프링 프레임워크(Spring Framework)

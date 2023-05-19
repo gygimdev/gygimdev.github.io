@@ -1,7 +1,8 @@
 ---
 layout: default
 title: 스프링 컨테이너와 빈
-parent: 스프링 프레임워크(Spring Framework)
+parent: 스프링(Spring)
+nav_order: 3
 ---
 
 # 스프링 컨테이너와 빈
