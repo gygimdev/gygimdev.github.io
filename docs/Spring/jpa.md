@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Jpa
+title: JPA(Java Persistence API)
 parent: 스프링(Spring)
 has_children: true
 nav_order: 1
 ---
 
-# Code
+# JPA(Java Persistence API)
 {: .no_toc }
 
 ## Table of contents
