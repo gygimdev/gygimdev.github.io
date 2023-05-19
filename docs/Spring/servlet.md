@@ -1,7 +1,9 @@
 ---
 layout: default
 title: 서블릿(Servlet)
-parent: 스프링 프레임워크(Spring Framework)
+parent: 스프링(Spring)
+permalink: /docs/spring/servlet
+nav_order: 4
 ---
 
 # 스프링 서블릿(Servlet)
