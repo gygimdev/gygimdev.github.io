@@ -3,7 +3,7 @@ layout: default
 title: 영속성컨텍스트
 grand_parent: 스프링(Spring)
 parent: JPA(Java Persistence API)
-nav_order: 1
+nav_order: 2
 ---
 
 # 영속성 컨텍스트(Persistence Context)
@@ -17,15 +17,16 @@ nav_order: 1
 
 ---
 
-## 영속성 컨텍스트(Persistence Context) 란?
+## 영속성 컨텍스트(Persistence Context)
 ![jpa-persistenceContainer.png](..%2F..%2Fstatic%2Fjpa-persistenceContainer.png)
 
-개발자는 EntityManager 를 통해 영속성컨테이너와 상호작용합니다.
-그리고 영속성컨테이너는 엔티티의 상태변화를 감지하고 데이터베이스와의 상호작용을 담당합니다.
-이를 통해 개발자는 객체 지향적인 방식으로 데이터를 다룰수 있습니다.
+EntityManager 를 통해 영속성 컨텍스트를 조작할 수 있습니다. 
+영속성 컨텍스트에서는 엔티티의 상태를 추적하고 변화를 감지합니다.
+애플리케이션과 JDBC 사이에서 동작하는 특징 때문에 몇가지 이점을 제공합니다.
 {: .fs-3 }
-
-
+1. 캐싱기능
+2. 변경감지기능
+3. 지연로딩
 
 ### EntityManager 사용방법
 ```java
@@ -135,7 +136,7 @@ entityManagerFactory.close();
 ```
 위의 코드에서 엔티티를 조회한 후에 setName 메서드를 통해 엔티티의 데이터를 변경합니다.
 그리고 트랜잭션을 커밋할 때 변경 감지가 동작하여 변경된 데이터만 업데이트됩니다.
-이는 JPA의 영속성 컨테이너가 엔티티의 상태 변화를 추적하여 필요한 변경사항만을 데이터베이스에 반영하는 기능입니다.
+이는 JPA의 영속성 컨텍스트가 엔티티의 상태 변화를 추적하여 필요한 변경사항만을 데이터베이스에 반영하는 기능입니다.
 {: .fs-3 }
 
 {: .important } 
