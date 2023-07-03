@@ -6,7 +6,7 @@ parent: JPA(Java Persistence API)
 nav_order: 1
 ---
 
-# 영속성 컨테이너(Persistence Container)
+# 영속성 컨텍스트(Persistence Context)
 {: .no_toc }
 
 ## Table of contents
@@ -17,7 +17,7 @@ nav_order: 1
 
 ---
 
-## 영속성 컨테이너(Persistence Container) 란?
+## 영속성 컨텍스트(Persistence Context) 란?
 ![jpa-persistenceContainer.png](..%2F..%2Fstatic%2Fjpa-persistenceContainer.png)
 
 개발자는 EntityManager 를 통해 영속성컨테이너와 상호작용합니다.
@@ -68,7 +68,7 @@ public class EntityManagerExample {
 
 ---
 
-## 영속성컨테이너의 기능
+## 영속성컨텍스의 기능
 
 ### 반복적인 엔티티 조회시 캐싱기능 제공
 ```java
@@ -99,9 +99,9 @@ entityManager.close();
 // EntityManagerFactory 종료
 entityManagerFactory.close();
 ```
-첫 번째 조회시 데이터베이스에서 가져온 데이터를 영속성컨테이너에 저장합니다.
-두 번째 조회시에는 영속성 컨테이너에 캐싱된 데이터를 사용합니다.
-세번째 조회시에는 `entityManger.claer()` 를 호출함으로써 영속성컨테이너를 초기화 해주었으므로 데이터베이스 쿼리가 실행됩니다.
+첫 번째 조회시 데이터베이스에서 가져온 데이터를 영속성 컨텍스트에 저장합니다.
+두 번째 조회시에는 영속성 컨텍스트에 캐싱된 데이터를 사용합니다.
+세번째 조회시에는 `entityManger.claer()` 를 호출함으로써 영속성 컨텍스트를 초기화 해주었으므로 데이터베이스 쿼리가 실행됩니다.
 {: .fs-3 }
 
 ### 엔티티 변경감지기능을 통해 변경이 필요한 데이터만 업데이트
