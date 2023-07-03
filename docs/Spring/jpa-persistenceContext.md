@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 엔티티와 영속성컨텍스트
+title: 영속성컨텍스트
 grand_parent: 스프링(Spring)
 parent: JPA(Java Persistence API)
 nav_order: 2
