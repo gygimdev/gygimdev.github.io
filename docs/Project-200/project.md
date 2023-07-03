@@ -42,49 +42,64 @@ permalink: docs/project-200
 project-200은 음식물 쓰레기를 줄이기 위해 사용자가 구입한 식재료의 수량과 유통기한을 가정별로 관리할 수 있는 기능을 제공합니다. 이 정보를 통해 사용자는 식재료를 제때에 소모함으로써 식재료의 낭비와 불필요한 추가 지출을 사전에 방지할 수 있습니다. 체계적이고 효율적인 식재료 관리를 통해 사용자는 식비를 절약하고 음식물 쓰레기를 줄여 환경 보호에 기여할 수 있습니다.
 {: .fs-3 }
 
-[MVC] 스프링MVC 를 활용해 역할의 분리와 비즈니스 로직 중심의 구현에 중점을 둔 패턴(컨트롤러, 서비스, 리포지토리) 을 구현할 수 있습니다.
+[MVC]  
+스프링MVC 를 활용해 역할의 분리와 비즈니스 로직 중심의 구현에 중점을 둔 패턴(컨트롤러, 서비스, 리포지토리) 을 구현할 수 있습니다.
 {: .fs-3 }
 
-[Custom Repository] 비즈니스 요구사항에 맞춰 JPA 이외의 데이터 접근과 조작(QueryDSL)을 위해 사용자 정의 리포지토리를 구현할 수 있습니다.
+[Custom Repository]  
+비즈니스 요구사항에 맞춰 JPA 이외의 데이터 접근과 조작(QueryDSL)을 위해 사용자 정의 리포지토리를 구현할 수 있습니다.
 {: .fs-3 }
 
-[Spring Security] 스프링 시큐리티를 사용하여 사용자 보안정보 관리 및 로그인 구현을 할 수 있습니다.
+[Spring Security]  
+스프링 시큐리티를 사용하여 사용자 보안정보 관리 및 로그인 구현을 할 수 있습니다.
 {: .fs-3 }
 
-[Exception] basicErrorController 를 활용한 ErrorPage 구현 및 HandlerExceptionResolver 를 사용해 RuntimeException 의 상태코드를 비즈니스 요구사항에 맞게 변경할 수 있습니다.
+[Exception]  
+basicErrorController 를 활용한 ErrorPage 구현 및 HandlerExceptionResolver 를 사용해 RuntimeException 의 상태코드를 비즈니스 요구사항에 맞게 변경할 수 있습니다.
 {: .fs-3 }
 
-[Internationalize] 국제화 기능(messages/errors.property) 을 활용해  통일된 다국어/에러 메세지 번역 기능을 제공할 수 있습니다.
+[Internationalize]  
+국제화 기능(messages/errors.property) 을 활용해  통일된 다국어/에러 메세지 번역 기능을 제공할 수 있습니다.
 {: .fs-3 }
 
-[JPA] 영속성 컨테이너, 지연로딩의 개념을 이해하고 있으며, 객체지향 중심의 데이터베이스 조작을 할 수 있습니다.
+[JPA]  
+영속성 컨테이너, 지연로딩의 개념을 이해하고 있으며, 객체지향 중심의 데이터베이스 조작을 할 수 있습니다.
 {: .fs-3 }
 
-[DTO] 계층간 데이터 전달시 불필요한 정보 노출을 최소화 하기 위해 DTO 를 구현하고 사용할 수 있습니다.
+[DTO]  
+계층간 데이터 전달시 불필요한 정보 노출을 최소화 하기 위해 DTO 를 구현하고 사용할 수 있습니다.
 {: .fs-3 }
 
-[QueryDSL] 복잡한 동적 쿼리를 QueryDSL 을 통해 구현할 수 있습니다.
+[QueryDSL]  
+복잡한 동적 쿼리를 QueryDSL 을 통해 구현할 수 있습니다.
 {: .fs-3 }
 
-[thymeleaf] 스프링에서 권장하는 템플릿 엔진을 사용하여 서버사이드 랜더링을 구현할 수 있습니다.
+[thymeleaf]  
+스프링에서 권장하는 템플릿 엔진을 사용하여 서버사이드 랜더링을 구현할 수 있습니다.
 {: .fs-3 }
 
-[Transaction] 트랜잭션의 ACID 개념과 스프링 트랜잭션 전파를 이해하고 있으며, 여러 작업을 물리적인 트랜잭션 단위로 묶어 비즈니스 요구사항에 맞는 기능을 구현할 수 있습니다.
+[Transaction]  
+트랜잭션의 ACID 개념과 스프링 트랜잭션 전파를 이해하고 있으며, 여러 작업을 물리적인 트랜잭션 단위로 묶어 비즈니스 요구사항에 맞는 기능을 구현할 수 있습니다.
 {: .fs-3 }
 
-[aop] 공통관심사, 핵심관심사 분리의 중요성을 이해하고, AOP 를 구현하고 스프링 빈으로 등록해 사용할 수 있습니다.
+[aop]  
+공통관심사, 핵심관심사 분리의 중요성을 이해하고, AOP 를 구현하고 스프링 빈으로 등록해 사용할 수 있습니다.
 {: .fs-3 }
 
-[profile] 각 개발환경의 스프링 프로파일을 사용하여 각 개발 운영환경의 설정을 관리할 수 있습니다.
+[profile]  
+각 개발환경의 스프링 프로파일을 사용하여 각 개발 운영환경의 설정을 관리할 수 있습니다.
 {: .fs-3 }
 
-[CICD] github Action, codedeploy 를 사용해 안정적이고 빠르게 배포할 수 있습니다.
+[CICD]  
+github Action, codedeploy 를 사용해 안정적이고 빠르게 배포할 수 있습니다.
 {: .fs-3 }
 
-[Custom Annotation] Enum 타입을 검증하기 위해 ConstraintValidator 인터페이스를 구현할수 있습니다.
+[Custom Annotation]  
+Enum 타입을 검증하기 위해 ConstraintValidator 인터페이스를 구현할수 있습니다.
 {: .fs-3 }
 
-[MBC Logging] 스프링 필터기능을 구현해 웹서버(Nginx) 부터 웹애플리케이션서버(tomcat)까지 동일한 request_id 로 로그를 추적할 수 있는 MDC 로깅 패턴을 구현할 수 있습니다.
+[MBC Logging]  
+스프링 필터기능을 구현해 웹서버(Nginx) 부터 웹애플리케이션서버(tomcat)까지 동일한 request_id 로 로그를 추적할 수 있는 MDC 로깅 패턴을 구현할 수 있습니다.
 {: .fs-3 }
 
 {: .fs-6 .fw-300 }
