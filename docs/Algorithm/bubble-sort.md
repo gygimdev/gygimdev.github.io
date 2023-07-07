@@ -26,46 +26,68 @@ nav_order: 1
 ## 예시
 loop1:
 
-| <span style="color:red"> 6 </span> | <span style="color:red"> 2 </span>  | 8 | 4 | 10 |  
-|:-----------------------------------|:------------------------------------|:--|:--|:---|
+<table>
+  <tr>
+    <th><span style="color:red;">6</span></th>
+    <th><span style="color:red;">2</span></th>
+    <th>8</th>
+    <th>4</th>
+    <th>10</th>
+  </tr>
+</table>
 
-| 2 | <span style="color:red"> 6 </span>  | <span style="color:red"> 8 </span> | 4 | 10 |  
-|:--|:------------------------------------|:-----------------------------------|:--|:---|
+<table>
+  <tr>
+    <th>2</th>
+    <th><span style="color:red;">6</span></th>
+    <th><span style="color:red;">8</span></th>
+    <th>4</th>
+    <th>10</th>
+  </tr>
+</table>
 
-| 2 | 6 | <span style="color:red"> 8 </span> | <span style="color:red"> 4 </span> | 10 |  
-|:--|:--|:-----------------------------------|:-----------------------------------|:---|
+<table>
+  <tr>
+    <th>2</th>
+    <th>6</th>
+    <th><span style="color:red;">8</span></th>
+    <th><span style="color:red;">4</span></th>
+    <th>10</th>
+  </tr>
+</table>
 
-| 2 | 6 | 4 | <span style="color:red"> 8 </span> | <span style="color:red"> 10 </span> |  
-|:--|:--|:--|:-----------------------------------|:------------------------------------|
+<table>
+  <tr>
+    <th>2</th>
+    <th>6</th>
+    <th>4</th>
+    <th><span style="color:red;">8</span></th>
+    <th><span style="color:red;">10</span></th>
+  </tr>
+</table>
 
-| 2 | 6 | 4 | 8  | <span style="color:blue"> 10 </span> |  
-|:--|:--|:--|:---|:-------------------------------------|
+<table>
+  <tr>
+    <th>2</th>
+    <th>6</th>
+    <th>4</th>
+    <th>8</th>
+    <th><span style="color:blue;">10</span></th>
+  </tr>
+</table>
 
-loop2
-
-| <span style="color:red"> 2 </span> | <span style="color:red"> 6 </span> | 4 | 8  | <span style="color:blue"> 10 </span> |  
-|:-----------------------------------|:-----------------------------------|:--|:---|:-------------------------------------|
-
-...
-
----
-table test purpose:
-
-| 2 | 6 | 4 | 8  | 10 |
-|:--|:--|:--|:---|:---|
-| a | d | d | d  | f  |
-
+loop 2:
 
 <table>
   <tr>
     <th><span style="color:red;">2</span></th>
-    <th>6</th>
+    <th><span style="color:red;">6</span></th>
     <th>4</th>
     <th>8</th>
-    <th>10</th>
+    <th><span style="color:blue;">10</span></th>
   </tr>
 </table>
----
+...
 
 ---
 
