@@ -2,7 +2,6 @@
 layout: default
 title: 버즐정렬(bubble-sort)
 parent: 알고리즘(Algorithm)
-has_children: tru
 nav_order: 1
 ---
 {: .no_toc }
