@@ -26,24 +26,24 @@ nav_order: 1
 ## 예시
 loop1:
 
-| <span style="color:red"> 6 </span> | <span style="color:red"> 2 </span>  | 8 | 4 | 10 |
+| <span style="color:red"> 6 </span> | <span style="color:red"> 2 </span>  | 8 | 4 | 10 |  
 |:-----------------------------------|:------------------------------------|:--|:--|:---|
 
-| 2 | <span style="color:red"> 6 </span>  | <span style="color:red"> 8 </span> | 4 | 10 |
+| 2 | <span style="color:red"> 6 </span>  | <span style="color:red"> 8 </span> | 4 | 10 |  
 |:--|:------------------------------------|:-----------------------------------|:--|:---|
 
-| 2 | 6 | <span style="color:red"> 8 </span> | <span style="color:red"> 4 </span> | 10 |
+| 2 | 6 | <span style="color:red"> 8 </span> | <span style="color:red"> 4 </span> | 10 |  
 |:--|:--|:-----------------------------------|:-----------------------------------|:---|
 
-| 2 | 6 | 4 | <span style="color:red"> 8 </span> | <span style="color:red"> 10 </span> |
+| 2 | 6 | 4 | <span style="color:red"> 8 </span> | <span style="color:red"> 10 </span> |  
 |:--|:--|:--|:-----------------------------------|:------------------------------------|
 
-| 2 | 6 | 4 | 8  | <span style="color:blue"> 10 </span> |
+| 2 | 6 | 4 | 8  | <span style="color:blue"> 10 </span> |  
 |:--|:--|:--|:---|:-------------------------------------|
 
 loop2
 
-| <span style="color:red"> 2 </span> | <span style="color:red"> 6 </span> | 4 | 8  | <span style="color:blue"> 10 </span> |
+| <span style="color:red"> 2 </span> | <span style="color:red"> 6 </span> | 4 | 8  | <span style="color:blue"> 10 </span> |  
 |:-----------------------------------|:-----------------------------------|:--|:---|:-------------------------------------|
 
 ...
