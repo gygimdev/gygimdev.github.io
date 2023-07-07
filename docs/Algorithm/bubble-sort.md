@@ -55,6 +55,16 @@ table test purpose:
 |:--|:--|:--|:---|:---|
 | a | d | d | d  | f  |
 
+
+<table>
+  <tr>
+    <th><span style="color:red;">2</span></th>
+    <th>6</th>
+    <th>4</th>
+    <th>8</th>
+    <th>10</th>
+  </tr>
+</table>
 ---
 
 ---
