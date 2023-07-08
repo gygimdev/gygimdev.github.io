@@ -123,7 +123,7 @@ loop4:
 
 ## 코드
 ```java
-public class Test {
+public class 삽입정렬 {
     static int[] a  = {8, 4, 6, 10, 2};
 
     public static void main(String[] args) {
