@@ -134,7 +134,7 @@ public class Test {
             int idx = end;
             int toInsert = a[idx];
 
-            while(idx > 0 && toInsert < a[idx-1]) {
+            while(0 < idx  && toInsert < a[idx-1]) {
                 a[idx] = a[idx-1];
                 idx--;
             }
