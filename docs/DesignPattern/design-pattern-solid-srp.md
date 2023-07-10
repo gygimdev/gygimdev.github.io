@@ -2,6 +2,7 @@
 layout: default
 title: 단일 책임 원칙(SRP)
 parent: 5가지 원칙(SOLID)
+grand_parent: 디자인 패턴(Design Pattern)
 nav_order: 1
 ---
 
