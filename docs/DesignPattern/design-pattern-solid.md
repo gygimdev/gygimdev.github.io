@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: 5가지 원칙(SOLID)
