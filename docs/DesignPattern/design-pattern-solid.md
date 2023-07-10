@@ -19,3 +19,5 @@ nav_order: 1
 ---
 
 # 객체지향 5가지 원칙 SOLID
+
+text
