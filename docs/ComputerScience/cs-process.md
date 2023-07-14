@@ -2,7 +2,7 @@
 layout: default
 title: 프로세스(Process)
 parent: 컴퓨터공학(Computer Science)
-nav_order: 2
+nav_order: 1
 ---
 
 {: .no_toc }
