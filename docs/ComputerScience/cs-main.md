@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 컴퓨터공학(Computer Science)
-nav_order: 1
+nav_order: 2
 has_children: true
 permalink: /docs/cs
 ---
