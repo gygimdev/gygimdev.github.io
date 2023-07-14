@@ -3,7 +3,7 @@ layout: default
 title: 컴퓨터공학(Computer Science)
 nav_order: 1
 has_children: true
-permalink: /docs/design-pattern
+permalink: /docs/cs
 ---
 
 # 컴퓨터 공학(Computer Science)
