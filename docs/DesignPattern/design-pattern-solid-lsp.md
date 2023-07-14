@@ -3,7 +3,7 @@ layout: default
 title: 리스코프 치환 원칙(LSP)
 parent: 5가지 원칙(SOLID)
 grand_parent: 디자인 패턴(Design Pattern)
-nav_order: 1
+nav_order: 4
 ---
 
 {: .no_toc }
@@ -18,7 +18,7 @@ nav_order: 1
 
 ---
 
-# 리스코프 치환 원(LSP: Liskov Substitution Principle)
+# 리스코프 치환 원칙(LSP: Liskov Substitution Principle)
 
 리스코브 치환 원칙은 상위 타입을 하위 타입이 완전히 대체할 수 있어야 한다는 원칙입니다.
 이 말은 하위 타입은 상위 타입처럼 행동해야하는 것을 의미합니다.

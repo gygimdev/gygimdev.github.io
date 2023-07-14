@@ -1,7 +1,8 @@
 ---
 layout: default
 title: 프로세스(Process)
-parent: 컴퓨터공학(Computer Science)
+parent: 프로세스와 쓰레드(Process & Thread)
+grand_parent: 컴퓨터공학(Computer Science)
 nav_order: 1
 ---
 
