@@ -2,7 +2,7 @@
 layout: default
 title: 프로세스(Process)
 parent: 컴퓨터공학(Computer Science)
-nav_order: 1
+nav_order: 2
 ---
 
 {: .no_toc }
@@ -27,7 +27,7 @@ nav_order: 1
 CPU는 내부기억장치(메모리) 에서 프로그램을 읽어오기 때문에
 프로그램을 실행시키려면 메모리에 프로그램을 적재해야합니다.
 
-### CPU 는 메모리에서 어떻게 코드를 읽어올끼?
+### CPU 는 메모리에서 어떻게 코드를 읽어올까?
 > PC Register(Program Counter)를 사용해서 읽어옵니다.
 
 CPU 는 PC Register 에 저장된 코드, 명령어를 보고 프로세스 연산을 실행합니다.
