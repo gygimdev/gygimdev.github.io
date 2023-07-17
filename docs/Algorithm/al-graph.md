@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: 알고리즘(Algorithm)
 title: 그래프(graph)
 nav_order: 6
 has_children: true
